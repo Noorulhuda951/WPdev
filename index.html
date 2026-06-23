@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Developer Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar" id="navbar">
+        <div class="logo">WP<span>DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#portfolio">WORK</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section class="section hero-section" id="home">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <h1 class="hero-title glitch" data-text="WORDPRESS DEVELOPER">WORDPRESS DEVELOPER</h1>
+            <p class="hero-subtitle">CRAFTING DIGITAL EXPERIENCES</p>
+            <p class="hero-desc">
+                I build high-performance, pixel-perfect WordPress websites that convert visitors into customers. 
+                From custom themes to complex plugins, I turn your vision into reality.
+            </p>
+            <a href="#portfolio" class="hero-btn">VIEW MY WORK</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL DOWN</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: About -->
+    <section class="section about-section" id="about">
+        <div class="about-container">
+            <div class="about-image-wrapper">
+                <div class="about-image"></div>
+                <div class="about-image-border"></div>
+            </div>
+            <div class="about-content">
+                <p class="section-label">About Me</p>
+                <h2 class="about-title">CREATING DIGITAL<br>MASTERPIECES</h2>
+                <p class="about-desc">
+                    With over 5 years of experience in WordPress development, I specialize in creating 
+                    custom themes, plugins, and full-scale websites. My passion lies in blending 
+                    beautiful design with flawless functionality to deliver exceptional user experiences.
+                </p>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label">PROJECTS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">CLIENTS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-label">YEARS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Skills -->
+    <section class="section skills-section" id="skills">
+        <div class="skills-container">
+            <div class="skills-header">
+                <p class="section-label">My Expertise</p>
+                <h2 class="about-title">TECHNICAL SKILLS</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3 class="skill-name">WordPress</h3>
+                    <p style="color:#888; font-size:14px;">Custom Themes & Plugins</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+                    <div class="skill-percent">95%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3 class="skill-name">PHP</h3>
+                    <p style="color:#888; font-size:14px;">Backend Development</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                    <div class="skill-percent">90%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🎯</span>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p style="color:#888; font-size:14px;">Interactive Elements</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+                    <div class="skill-percent">88%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">💎</span>
+                    <h3 class="skill-name">React</h3>
+                    <p style="color:#888; font-size:14px;">Modern Frontend</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                    <div class="skill-percent">85%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🔧</span>
+                    <h3 class="skill-name">WooCommerce</h3>
+                    <p style="color:#888; font-size:14px;">E-Commerce Solutions</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="92%"></div></div>
+                    <div class="skill-percent">92%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🚀</span>
+                    <h3 class="skill-name">SEO</h3>
+                    <p style="color:#888; font-size:14px;">Search Optimization</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="87%"></div></div>
+                    <div class="skill-percent">87%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">📱</span>
+                    <h3 class="skill-name">Responsive</h3>
+                    <p style="color:#888; font-size:14px;">Mobile First Design</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="98%"></div></div>
+                    <div class="skill-percent">98%</div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">⚙️</span>
+                    <h3 class="skill-name">API</h3>
+                    <p style="color:#888; font-size:14px;">REST API Integration</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="83%"></div></div>
+                    <div class="skill-percent">83%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Portfolio -->
+    <section class="section portfolio-section" id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-header">
+                <p class="section-label">Portfolio</p>
+                <h2 class="about-title">FEATURED PROJECTS</h2>
+            </div>
+            <div class="portfolio-slider">
+                <div class="portfolio-card">
+                    <div class="portfolio-img">🏢</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">CORPORATE WEBSITE</p>
+                        <h3 class="portfolio-title">TechCorp Solutions</h3>
+                        <p class="portfolio-desc">A modern corporate website built with custom WordPress theme, featuring advanced animations and seamless user experience.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <a href="#" class="view-project">VIEW PROJECT</a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">🛒</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">E-COMMERCE</p>
+                        <h3 class="portfolio-title">ShopMax Store</h3>
+                        <p class="portfolio-desc">Full-featured WooCommerce store with custom checkout flow, product filters, and payment gateway integrations.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <a href="#" class="view-project">VIEW PROJECT</a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">🎨</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">PORTFOLIO</p>
+                        <h3 class="portfolio-title">Creative Studio</h3>
+                        <p class="portfolio-desc">Award-winning portfolio website for a design agency with stunning visual effects and smooth transitions.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <a href="#" class="view-project">VIEW PROJECT</a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">📰</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-category">NEWS PORTAL</p>
+                        <h3 class="portfolio-title">Daily News Hub</h3>
+                        <p class="portfolio-desc">High-traffic news portal with real-time updates, custom post types, and advanced search functionality.</p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <a href="#" class="view-project">VIEW PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Services -->
+    <section class="section services-section" id="services">
+        <div class="services-container">
+            <div class="services-header">
+                <p class="section-label">What I Offer</p>
+                <h2 class="about-title">MY SERVICES</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-box">
+                    <span class="service-num">01</span>
+                    <span class="service-icon">🎨</span>
+                    <h3 class="service-title">Custom Themes</h3>
+                    <p class="service-desc">Bespoke WordPress themes tailored to your brand identity with pixel-perfect design and clean code architecture.</p>
+                </div>
+                <div class="service-box">
+                    <span class="service-num">02</span>
+                    <span class="service-icon">⚡</span>
+                    <h3 class="service-title">Plugin Development</h3>
+                    <p class="service-desc">Custom plugins to extend WordPress functionality exactly as your business needs, from simple tools to complex systems.</p>
+                </div>
+                <div class="service-box">
+                    <span class="service-num">03</span>
+                    <span class="service-icon">🛒</span>
+                    <h3 class="service-title">E-Commerce</h3>
+                    <p class="service-desc">Complete WooCommerce solutions with custom product pages, checkout optimization, and payment integrations.</p>
+                </div>
+                <div class="service-box">
+                    <span class="service-num">04</span>
+                    <span class="service-icon">🚀</span>
+                    <h3 class="service-title">Performance</h3>
+                    <p class="service-desc">Speed optimization, caching solutions, and database tuning to make your website lightning fast.</p>
+                </div>
+                <div class="service-box">
+                    <span class="service-num">05</span>
+                    <span class="service-icon">🔒</span>
+                    <h3 class="service-title">Security</h3>
+                    <p class="service-desc">Comprehensive security audits, malware removal, and hardening to keep your site safe from threats.</p>
+                </div>
+                <div class="service-box">
+                    <span class="service-num">06</span>
+                    <span class="service-icon">🔧</span>
+                    <h3 class="service-title">Maintenance</h3>
+                    <p class="service-desc">Regular updates, backups, and 24/7 monitoring to ensure your website runs smoothly at all times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Testimonials -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="testimonials-container">
+            <div class="testimonials-header">
+                <p class="section-label">Testimonials</p>
+                <h2 class="about-title">CLIENT REVIEWS</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        Absolutely phenomenal work! The attention to detail and the seamless animations 
+                        made our website stand out from competitors. Highly recommended for any serious business.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Ahmed Khan</h4>
+                            <p>CEO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        Our e-commerce sales increased by 200% after the redesign. The custom WooCommerce 
+                        solution was exactly what we needed. Professional, timely, and incredibly skilled.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Sarah Ali</h4>
+                            <p>Founder, ShopMax</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        The best WordPress developer I have ever worked with. Clean code, fast delivery, 
+                        and exceptional communication throughout the project. A true professional.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <h4>Usman Raza</h4>
+                            <p>Director, Creative Studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Contact -->
+    <section class="section contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="section-label">Get In Touch</p>
+                <h2 class="about-title">LET'S WORK<br>TOGETHER</h2>
+                <p class="about-desc">
+                    Have a project in mind? Let's discuss how I can help bring your vision to life. 
+                    I'm always excited to work on new challenges and create something amazing.
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>hello@wpdeveloper.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+92 300 1234567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Footer -->
+    <section class="section footer-section">
+        <div class="footer-container">
+            <div class="footer-logo">WP<span>DEV</span></div>
+            <p class="footer-desc">
+                Crafting exceptional WordPress experiences with passion, precision, and professionalism.
+            </p>
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">in</a>
+                <a href="#" class="social-link">𝕏</a>
+                <a href="#" class="social-link">Gh</a>
+            </div>
+            <p class="footer-copy">© 2026 WPDEV. ALL RIGHTS RESERVED.</p>
+        </div>
+    </section>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
