@@ -201,3 +201,14 @@
         }, 5000);
 
         // Form submission
+        document.querySelector('form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+        });
+        document.addEventListener('DOMContentLoaded',function(){
+const slider=document.querySelector('.portfolio-slider');
+const next=document.querySelector('.next-btn');
+const prev=document.querySelector('.prev-btn');
+if(next) next.addEventListener('click',()=>slider.scrollBy({left:500,behavior:'smooth'}));
+if(prev) prev.addEventListener('click',()=>slider.scrollBy({left:-500,behavior:'smooth'}));
+});
