@@ -279,7 +279,11 @@
         }
 
         /* Section 2 - About */
-        .about-section {
+        /*========================
+ABOUT SECTION
+========================*/
+
+.about-section {
             background: #0a0a0a;
         }
 
@@ -449,6 +453,126 @@
             font-size: 14px;
             color: #00ff88;
             margin-top: 10px;
+        }
+
+        /* ── TABLET (768px – 1024px) ── */
+        @media (max-width: 1024px) {
+            .about-container {
+                gap: 50px;
+                padding: 0 50px;
+            }
+
+            .about-title {
+                font-size: 36px;
+            }
+
+            .about-desc {
+                font-size: 16px;
+            }
+
+            .stat-number {
+                font-size: 36px;
+            }
+
+            .stats-row {
+                gap: 35px;
+            }
+
+            .skills-container {
+                padding: 0 50px;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+
+        /* ── MOBILE (up to 767px) ── */
+        @media (max-width: 767px) {
+            .about-container {
+                flex-direction: column;
+                gap: 40px;
+                padding: 40px 20px;
+                text-align: center;
+            }
+
+            .about-image-wrapper {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+           .about-image img {
+    width: 95%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .about-image img {
+        max-width: 250px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-image img {
+        max-width: 900px;
+        max-height: 410px;
+        margin-left: 5px;
+    }
+}
+
+            .about-image-border {
+                top: -12px;
+                left: -12px;
+                right: 12px;
+                bottom: 12px;
+            }
+
+            .about-content {
+                max-width: 100%;
+            }
+
+            .about-title {
+                font-size: 26px;
+            }
+
+            .about-desc {
+                font-size: 15px;
+            }
+
+            .stats-row {
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .stat-number {
+                font-size: 32px;
+            }
+
+            .stat-label {
+                font-size: 12px;
+            }
+
+            .skills-container {
+                padding: 0 20px;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+            }
+
+            .skills-header {
+                margin-bottom: 40px;
+            }
+
+            .skill-card {
+                padding: 30px 20px;
+            }
         }
 
         /* Section 4 - Portfolio */
